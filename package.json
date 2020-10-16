@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "gsap": "^3.5.1",
     "next": "9.5.5",
     "react": "16.14.0",
