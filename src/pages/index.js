@@ -1,5 +1,6 @@
-import { TweenMax} from "gsap"
+import Head from 'next/head'
 import { useRef, useEffect, useState } from "react"
+import { TweenMax} from "gsap"
 
 const customEase = [0.6, 0.02, 0.05, 0.9]
 export default function Index() {
@@ -116,6 +117,10 @@ export default function Index() {
   }
   return (
     <>
+      <Head>
+        <title>Dicover Wilderness</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="navigation-overlay" ref={el=>navOverlay=el}></div>
       <div className="root-container">
         <div
